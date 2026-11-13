@@ -1,0 +1,13 @@
+
+{
+  "name": "BB - Mayordomo Digital",
+  "short_name": "BB",
+  "description": "Mayordomo Digital Personal y Comercial 24/7",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#101827",
+  "theme_color": "#101827"
+}
