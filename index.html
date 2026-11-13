@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="BB - Mayordomo Digital Personal y Comercial">
+  <title>BB | Mayordomo Digital</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">BB</div>
+        <div>
+          <h1>BB</h1>
+          <p>Mayordomo Digital</p>
+        </div>
+      </div>
+      <span id="status">Iniciando...</span>
+    </header>
+
+    <section class="welcome">
+      <h2>Buenos días.</h2>
+      <p>Soy BB, tu mayordomo personal y comercial.</p>
+      <p>Estoy preparado para ayudarte a dirigir tus operaciones.</p>
+    </section>
+
+    <section class="dashboard">
+      <article class="panel">
+        <span>Ventas</span>
+        <strong id="sales">--</strong>
+      </article>
+      <article class="panel">
+        <span>Comisiones</span>
+        <strong id="commissions">--</strong>
+      </article>
+      <article class="panel">
+        <span>Tareas pendientes</span>
+        <strong id="tasks">0</strong>
+      </article>
+    </section>
+
+    <section class="assistant">
+      <h2>Centro de mando</h2>
+      <div id="messages" aria-live="polite">
+        <p class="message">BB está preparado para recibir tus instrucciones.</p>
+      </div>
+
+      <form id="chat-form">
+        <input
+          id="user-message"
+          type="text"
+          placeholder="Escribe una instrucción..."
+          autocomplete="off"
+          required
+        >
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      BB · Tu negocio, bajo control.
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
